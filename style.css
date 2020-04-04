@@ -1,0 +1,77 @@
+body{
+	color: #fff;
+	background-color: #16f3ab47;
+	background-image: linear-gradient(to bottom right,black, white);
+}
+
+
+.main-container{
+	padding: 0 20px;
+	#border: 1px solid;
+	border-width: 3px;
+	border-style: solid;
+	background: 
+    linear-gradient(
+      bottom right, 
+      white, black);
+}
+
+.row-container{
+	padding:0 20px 0 20px;
+}
+
+.tile-border{
+	border-right: 1px solid #e09e9e;
+}
+
+.tile-border .card, .top-section .card{
+	background:transparent;
+	color: #fff;
+	border: 1px solid;
+    margin: 0 5px 5px 0;
+}
+
+.tile-border .card-body{
+	border: 1px solid;
+}
+
+.tile-border .list-group-item{	
+	background: transparent;
+	border-bottom: 1px solid;
+}
+
+.top-section{
+	width: 90%;
+    margin: auto;
+	border-bottom: 1px solid #e09e9e;
+	padding-top: 20px;	
+}
+
+
+
+footer{
+	padding: 0 40px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.resume-container{
+	width: 75%;
+	margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .row .col-4{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    max-width: 100%;
+	flex:none;
+	border:none;
+  }
+  .top-section{
+	  width: 100%;
+  }
+  .row .col-8{
+	  max-width:100%;
+	  flex:none;
+  }
+}
