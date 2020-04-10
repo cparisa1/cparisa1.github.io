@@ -24,7 +24,7 @@ body{
 	border-right: 1px solid #e09e9e;
 }
 
-.tile-border .card, .top-section .card{
+.tile-border .card, .top-section .card, .bottom-section .card{
 	background:transparent;
 	color: #fff;
 	border: 1px solid;
@@ -40,14 +40,25 @@ body{
 	border-bottom: 1px solid;
 }
 
+.list-group-flush a{
+	color: #00ffdc;
+}
+
+.list-group-flush a:hover{
+	color: #00ffdc;
+}
+
 .top-section{
 	width: 90%;
     margin: auto;
-	border-bottom: 1px solid #e09e9e;
 	padding-top: 20px;	
 }
 
-
+.bottom-section{
+	text-align: center;
+	width: 90%;
+    margin: auto;
+}
 
 footer{
 	padding: 0 40px;
@@ -58,6 +69,14 @@ footer{
 .resume-container{
 	width: 75%;
 	margin: auto;
+}
+
+.card-button{
+	text-align: center;
+}
+
+.btn-class{
+	margin: 5px;
 }
 
 @media screen and (max-width: 700px) {
@@ -74,4 +93,11 @@ footer{
 	  max-width:100%;
 	  flex:none;
   }
+}
+
+@media screen and (max-width: 768px) {
+	.btn-class{
+		margin: 5px;
+		width: 100%;
+	}
 }
